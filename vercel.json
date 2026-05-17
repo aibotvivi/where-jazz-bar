@@ -1,0 +1,15 @@
+{
+  "crons": [
+    {
+      "path": "/api/ingest",
+      "schedule": "0 6 * * *"
+    }
+  ],
+  "env": {
+    "ANTHROPIC_API_KEY": "@anthropic-api-key",
+    "TICKETMASTER_API_KEY": "@ticketmaster-api-key",
+    "SKIDDLE_API_KEY": "@skiddle-api-key",
+    "SUPABASE_URL": "@supabase-url",
+    "SUPABASE_ANON_KEY": "@supabase-anon-key"
+  }
+}
